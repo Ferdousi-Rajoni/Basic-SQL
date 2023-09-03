@@ -7,7 +7,7 @@ select  SaleDate, Amount, Boxes, Amount/Boxes as 'Amount per box' from sales;
 select * from sales
 where amount > 10000
 order by amount desc;
-
+select * from Sales;
 
 select * from sales
 where GeoID='g1'
